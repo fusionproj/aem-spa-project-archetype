@@ -33,6 +33,9 @@ module.exports = {
             ],
             css: [
                 "build/static/**/*.css"
+            ],
+            resources: [
+                "build/static/media/*.*"
             ]
         }
     }
