@@ -33,7 +33,7 @@ function render(pageModel, useHydrate) {
                  cqPath={pageModel[Constants.PATH_PROP]}
                  locationPathname={ window.location.pathname }/>
         </Router>),
-        document.getElementById('page'));
+      document.getElementById('page'));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
