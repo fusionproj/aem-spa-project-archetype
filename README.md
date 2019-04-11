@@ -4,6 +4,10 @@ This archetype creates a minimal Adobe Experience Manager project as a starting 
 
 See the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) on the Adobe Help Center website for an example of how to use it.
 
+## Contributing
+
+Contributions are welcome! Read the [Contributing Guide](CONTRIBUTING.md) for more information.
+
 ## System requirements
 
 - [Java](https://www.java.com/en/download/) 1.8 or higher
@@ -87,7 +91,7 @@ $ mvn archetype:generate \
      -DarchetypeCatalog=internal \
      -DarchetypeGroupId=com.adobe.cq.spa.archetypes  \
      -DarchetypeArtifactId=aem-spa-project-archetype  \
-     -DarchetypeVersion=1.0.3-SNAPSHOT \
+     -DarchetypeVersion=1.0.5-SNAPSHOT \
 ```
 
 Please note that properties declared in [archetype-metadata.xml](src/main/resources/META-INF/maven/archetype-metadata.xml) with `defaultValue` are not asked during interactive mode and are defaulted to suggested values. 
@@ -100,7 +104,7 @@ $ mvn archetype:generate -B \
      -DarchetypeCatalog=local  \
      -DarchetypeGroupId=com.adobe.cq.spa.archetypes  \
      -DarchetypeArtifactId=aem-spa-project-archetype  \
-     -DarchetypeVersion=1.0.3-SNAPSHOT \
+     -DarchetypeVersion=1.0.5-SNAPSHOT \
      -Dpackage=<package> \
      -DgroupId=<group-id> \
      -DartifactId=<artifact-id> \
